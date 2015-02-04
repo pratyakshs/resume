@@ -1,0 +1,167 @@
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.73]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Pratyaksh} % Your first name
+\familyname{Sharma} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+\address{Room 40, Hostel 2}{IIT Bombay, Mumbai - 400076}
+\mobile{(+91) 720 804 9809}
+\phone{(+1) 413 889 1707}
+%\fax{(000) 111 1113}
+\email{pratyaksh@cse.iitb.ac.in}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2012--Present}{Bachelor of Technology (Honors)}{\href{http://www.iitb.ac.in/}{Indian Institute of Technology}}{Bombay}{}{Major: Computer Science and Engineering \\ Minor: Applied Statistics and Informatics \\ \textit{Current GPA -- 9.10}}  % Arguments not required can be left empty
+
+\section{Research Experience}
+
+\cvitem{Title}{\emph{Weighted Best-First Search for W-optimal Solutions over Graphical Models}}
+\cvitem{Supervisors}{Professor \href{www.ics.uci.edu/~dechter/}{Rina Dechter} \& \href{http://www.informatik.uni-trier.de/~ley/pers/hd/f/Flerova:Natalia}{Natalia Flerova}, \emph{\href{http://ics.uci.edu}{University of California, Irvine}}}
+\cvitem{Description}{Performed empirical analysis of \textbf{anytime weighted best first strategies on AND/OR search spaces} for approximate inference. Compared the effects of Mini-bucket Elimination, Join-Graph Linear Programming(JGLP) and MBE with moment matching (MBE-MM) heuristics on search performance. Participated in the \textbf{\href{http://www.hlt.utdallas.edu/~vgogate/uai14-competition/}{UAI 2014 - Probabilistic Inference Competition}} with the studied solver. \newline Published in the proceedings of Planning, Search and Optimization (PlanSOpt) workshop, AAAI'15.\newline \emph{Url:} \url{http://www.ics.uci.edu/~dechter/publications/r216.pdf}}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Key Projects}
+
+\cventry{Aug 2014 - Nov 2014}{Sentiment analysis of song lyrics for genre identification}{}{}{\newline Supervisor: \href{http://www.cse.iitb.ac.in/~pb/}{Prof. Pushpak Bhattacharyya}, IIT Bombay}{Developed a system to analyse song lyrics and output the mood/emotion/sentiment associated with the song. Classifying a song solely based on its lyrics is a challenging problem and existing approaches yield poor accuracy. 
+}
+
+%------------------------------------------------
+
+\cventry{Sept 2014 - Nov 2014}{Searchable Symmetric Encryption}{}{}{\newline Supervisor: \href{http://www.cse.iitb.ac.in/~bernard/}{Prof. Bernard L. Menezes}, IIT Bombay}{Developed a dynamic searchable symmetric encryption application with powerful regex search capabilities. Further work is to study the attacks possible (and countermeasures) in this setting.}
+
+%------------------------------------------------
+
+\cventry{Jan 2013 - Apr 2013}{Che.ss}{A chess engine in PLT Scheme}{}{\newline Supervisor: Prof. Amitabha Sanyal, IIT Bombay}{Programmed a chess engine in the functional paradigm. The minimax algorithm with $\alpha-\beta$ pruning formed the basis of AI. The heuristics involved use of Piece-Square tables, analyzing pawn structure and various other chess tactics. Used the XBoard GUI and wrote a parser/translator for the Chess Engine Communication Protocol. Also investigated other chess algorithms like Negascout and MTD-f.}
+
+%------------------------------------------------
+
+
+\cventry{Mar 2014 - Apr 2014}{Simulation in Box2D}{}{}{\newline Supervisor: Prof. Prof. Parag Chaudhuri, IIT Bombay}{Developed a complex simulation of a locomotive in the Box2D Physics Engine. \newline
+\emph{Url:} \url{https://github.com/pratyakshs/Box2D-SteamEngine}}
+
+
+
+%---------------------------------------------------------------------------
+%	OTHER PROJECTS
+%--------------------------------------------------------------------------
+\section{Other Projects}
+
+
+
+\cventry{Jul 2013 - Sep 2013}{Analytics developer}{\href{http://coursewave.org/}{Coursewave.org}, an online courseware startup}{}{}{Developed live data visualizations for students and teachers using various web APIs
+and integrated the user analytics with online test taking interface.}
+
+
+\cventry{Aug 2013}{News clustering hack}{Yahoo! HackU}{}{}{Prototype for clustering similar news content in Yahoo! News results using several Yahoo! APIs like BOSS, YQL and YUI}
+
+\cventry{Mar 2014}{JTalk - P2P chat program}{}{}{}{Developed a text based LAN messenger in Java using multiple threads and the Swing library. 
+\newline \emph{Url:} \url{https://github.com/pratyakshs/JTalk}
+}
+
+\cventry{Nov 2012}{Pac-man}{}{}{Guide: Prof. Abhiram Ranade}{Recreated the classic game of pac-man using in C++ using the SimpleCpp/EzWindows graphics library.
+Programmed the deterministic ghost behaviour as in the standard game.
+}
+
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+\cvitem{2013}{Honourable Mention at ACM-ICPC Amritapuri Regionals, ranked 24th in India}
+
+\cvitem{2012}{All India Rank 33 in IIT Joint Entrance Examination out of over 500,000 candidates}
+\cvitem{2012}{All India Rank 29 in AIEEE 2012 out of over 1,200,000 candidates}
+
+\cvitem{2012}{Qualified for Indian National Physics (INPhO), Chemistry (INChO) and Astronomy (INAO) Olympiads (among top 300 students in India in each subject)}
+
+\cvitem{2012}{Awarded Gold medal by DPS Society for maintaining excellent academic record for seven consecutive years}
+
+
+\cvitem{2011}{Cleared regional stage of Indian National Mathematics Olympiad (INMO)}
+
+\cvitem{2011}{Awarded the KVPY fellowship by Department of Science and Technology, Government of India, to take up a career in research
+}
+
+
+\cvitem{2010}{Admitted to the Education Program for Gifted Youth (EPGY) Summer
+Institutes High School Program at Stanford University}
+
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Technical skills}
+
+\cvitem{Programming Languages}{C/C++, Python, Java, PLT Scheme, Prolog, Bash, MIPS32, VHDL}
+\cvitem{Web}{HTML, CSS, Javascript, PHP, JSP, MySQL, PostgreSQL, AJAX, JSON}
+\cvitem{Tools and Libraries}{Sage, \LaTeXe , Scilab, PSPICE, Mathematica, Numpy, R, Octave, Boost C++}
+\clearpage
+%----------------------------------------------------------------------------------------
+%	EXTRACURRICULAR ACTIVITES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Extracurricular Activites}
+\cvitem{}{Active participant in algorithmic coding contests on online judges (\href{http://spoj.com/users/pratyaksh}{SPOJ}, \href{codeforces.com/profile/pratyaksh}{Codeforces})}
+\cvitem{2013}{Stood 17th (2nd among teams from IIT-B) in online round of ACM ICPC Regionals}
+\cvitem{2013}{Coordinator at Mood Indigo and Techfest,  IIT Bombay}
+\cvitem{2011}{Invited to Vijyoshi camp (2011) at IISc Bangalore}
+\cvitem{2011}{Attended the summer program for KVPY fellows at IISER Mohali}
+\cvitem{2011}{Served as Vice-President of Axiom (school mathematics society) and was responsible for the execution of Axiom 2011 (second largest inter-school mathematics symposium in Delhi) and won several inter-school mathematics competitions}
+\cvitem{2012}{Ranked 2nd in IIT-Bombay in Maths and Physics Quiz}
+\cvitem{2012-13}{Served one year under the National Service Scheme (NSS)}
+
+
+%----------------------------------------------------------------------------------------
+%	COURSES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Relevant Courses}
+
+\cvitem{Computer Science}{Computer Architecture*, Computer Networks*, Database Systems*, Natural Language Processing*, Network Security and Cryptography*, Design and Analysis of Algorithms, Introduction to Machine Learning, Data Structures and Algorithms, Abstractions and
+Paradigms in Programming, Discrete Structures, Graph Theory, Number Theory and Cryptography, Automata Theory and Logic, Logic
+Design, Software Systems Laboratory}
+
+\cvitem{Statistics and Mathematics}{Statistical Inference*, Games and Information*, Calculus, Linear Algebra, Differential Equations, Data Analysis and Interpretation, Probability Theory, Combinatorics, Numerical Analysis, Introduction to Derivative Pricing}
+
+\cvitem{Other}{Introduction to Electrical and Electronic Circuits, Modern Physics, Economics, Experimental and Measurement Laboratory}
+
+
+\end{document}
