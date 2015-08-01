@@ -1,4 +1,4 @@
 resume
 ======
 
-New and old resumes
+Resumes categorized by year/format.

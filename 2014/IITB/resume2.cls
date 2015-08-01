@@ -1,0 +1,1 @@
+../../sty/resume2.cls
